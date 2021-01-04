@@ -14,6 +14,9 @@ public class Main {
 
 //        Template Method Pattern
         run.templateMethod();
+
+//        Factory Method Pattern
+
     }
 
 

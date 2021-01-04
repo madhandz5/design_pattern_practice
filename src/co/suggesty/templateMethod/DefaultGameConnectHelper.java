@@ -1,4 +1,4 @@
-package co.suggesty.templatemethod;
+package co.suggesty.templateMethod;
 
 public class DefaultGameConnectHelper extends AbstGameConnectHelper {
     @Override
