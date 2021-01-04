@@ -7,7 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Run run = new Run();
 //        Strategy Pattern
-        run.strategy();
+//        run.strategy();
+
+//        Adapter Pattern
+        run.adapter();
     }
 
 

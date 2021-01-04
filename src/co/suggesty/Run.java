@@ -1,5 +1,7 @@
 package co.suggesty;
 
+import co.suggesty.adapter.Adapter;
+import co.suggesty.adapter.AdapterImpl;
 import co.suggesty.strategy.Axe;
 import co.suggesty.strategy.GameCharacter;
 import co.suggesty.strategy.Knife;
@@ -7,7 +9,7 @@ import co.suggesty.strategy.Sword;
 
 public class Run {
     //    Strategy Pattern
-    public void strategy(){
+    public void strategy() {
         GameCharacter character = new GameCharacter();
         character.attack();
 
@@ -19,5 +21,12 @@ public class Run {
 
         character.setWeapon(new Axe());
         character.attack();
+    }
+
+    //    Adapter Pattern
+    public void adapter() {
+        Adapter adapter = new AdapterImpl();
+        System.out.println(adapter.twiceOf(100f));
+        System.out.println(adapter.halfOf(88f));
     }
 }
