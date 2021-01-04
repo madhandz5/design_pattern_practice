@@ -10,7 +10,10 @@ public class Main {
 //        run.strategy();
 
 //        Adapter Pattern
-        run.adapter();
+//        run.adapter();
+
+//        Template Method Pattern
+        run.templateMethod();
     }
 
 

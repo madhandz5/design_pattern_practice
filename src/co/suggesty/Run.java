@@ -6,6 +6,8 @@ import co.suggesty.strategy.Axe;
 import co.suggesty.strategy.GameCharacter;
 import co.suggesty.strategy.Knife;
 import co.suggesty.strategy.Sword;
+import co.suggesty.templatemethod.AbstGameConnectHelper;
+import co.suggesty.templatemethod.DefaultGameConnectHelper;
 
 public class Run {
     //    Strategy Pattern
@@ -28,5 +30,11 @@ public class Run {
         Adapter adapter = new AdapterImpl();
         System.out.println(adapter.twiceOf(100f));
         System.out.println(adapter.halfOf(88f));
+    }
+
+    public void templateMethod() {
+        AbstGameConnectHelper helper = new DefaultGameConnectHelper();
+        helper.requestConnection("ID / PASSWORD");
+
     }
 }
