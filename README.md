@@ -63,4 +63,26 @@
 <ul>
 <li style="list-style-type: square">현재 아이템의 종류는 체력 회복 물약, 마력 회복 물약이 있습니다.</li>
 </ul>
+
+
+<h1><li style="list-style-type: upper-roman">Singleton Pattern</li></h1>
+<ul>
+<li><strong style="color: red">하나의 인스턴스만 생성하도록 </strong>구현</li>
+</ul>
+
+
+<ul>
+<li style="list-style-type: square">개발중인 시스템에서 스피커에 접근할 수 있는 클래스를 구현</li>
+</ul>
+
+
+<h1><li style="list-style-type: upper-roman">Prototype Pattern</li></h1>
+<ul>
+<li><strong style="color: red">생산비용이 높은 인스턴스</strong>를 복사해서 쉽게 생성할 수 있도록 하는 패턴</li>
+</ul>
+
+<ul>
+<li style="list-style-type: square">일러스트레이터와 같은 Drawing Tool을 개발중이다. 어떤 모양으로 그릴 수 있도록 하고 복사 붙여넣기 기능을 구현할 것</li>
+</ul>
+
 </ul>
