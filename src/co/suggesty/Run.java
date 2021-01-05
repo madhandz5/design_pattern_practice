@@ -91,14 +91,14 @@ public class Run {
         navi.setAge(new Age(2019, 3));
 
         Cat yo = navi.copy();
-        yo.setName("yo");
 
+        yo.setName("yo");
         yo.getAge().setAge(5);
         yo.getAge().setYear(2018);
 
         System.out.println(navi.toString());
 
-//        Cat 에서 Clone 할 때 깊은 복사를 했기 때문에, Age 의 주소값이 따로 존재함.
+//        Cat Class 에서 copy() 할 때 깊은 복사를 했기 때문에, Age 의 주소값이 따로 존재함.
         System.out.println(yo.toString());
     }
 }
