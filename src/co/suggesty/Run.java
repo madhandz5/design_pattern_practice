@@ -2,6 +2,10 @@ package co.suggesty;
 
 import co.suggesty.adapter.Adapter;
 import co.suggesty.adapter.AdapterImpl;
+import co.suggesty.factoryMethod.concrete.HpItemCreator;
+import co.suggesty.factoryMethod.concrete.MpItemCreator;
+import co.suggesty.factoryMethod.framework.AbsItemCreator;
+import co.suggesty.factoryMethod.framework.Item;
 import co.suggesty.strategy.Axe;
 import co.suggesty.strategy.GameCharacter;
 import co.suggesty.strategy.Bow;
@@ -41,6 +45,62 @@ public class Run {
 
     //    Factory Method Pattern
     public void factoryMethod() {
+        AbsItemCreator creator;
+        Item item;
+        creator = new HpItemCreator();
+        item = creator.create();
+        item.use();
 
+        creator = new MpItemCreator();
+        item = creator.create();
+        item.use();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

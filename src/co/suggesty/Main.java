@@ -13,9 +13,10 @@ public class Main {
 //        run.adapter();
 
 //        Template Method Pattern
-        run.templateMethod();
+//        run.templateMethod();
 
 //        Factory Method Pattern
+        run.factoryMethod();
 
     }
 
